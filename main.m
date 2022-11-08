@@ -1,10 +1,9 @@
-clear  %初期化
-try
-    ans = 2/2; %処理するプログラム
-%     msg = 'Error occurred.';
-%     error(msg)
-%    attachmentFileName = 'test.png';
-%    attachmentFilePath = './test.png';
-catch ME %エラー内容を取得
+result = 0;
+for i = 1:1000000000
+    result = result + i;
 end
-mailsend; %本プログラム
+
+
+
+% msg = 'Error occurred.';
+% error(msg)
