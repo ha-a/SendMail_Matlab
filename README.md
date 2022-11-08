@@ -11,7 +11,7 @@ You can catch the message containing
 1. set up the email addresses (in `mailsend.m` file)
     * sender email address and password
     * receiver email address
-1. (optional) set up the contents (in this `mailAfterMain.m` file)
+1. (optional) set up the contents (in `mailAfterMain.m` file)
     * main results
     * attachment file(s) 
       (in default, this program gets all files in `figureDirectoryName`)
