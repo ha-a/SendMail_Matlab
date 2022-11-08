@@ -16,7 +16,7 @@
 % 3. (optional) set up the contents (in this `mailAfterMain.m` file)
 %     * main results
 %     * attachment file(s) 
-%       (in default, this program get all files in `figureDirectoryName`)
+%       (in default, this program gets all files in `figureDirectoryName`)
 % 3. let's calculate!
 %
 %=========================================================================
