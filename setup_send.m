@@ -2,16 +2,16 @@
 
 %% Setting of mail sender (gmail)
 %  address
-Mail.sendAdd      = '****************@gmail.com';
+Mail.sendAdd      = 'shime.hajime2468@gmail.com';
 %  password
-%  this is the password for google account but "App Passwords"
-%  https://support.google.com/mail/answer/185833?hl=en
-Mail.sendPassword = '****************';
+%  this is NOT the password for google account but "App Passwords"
+%  See https://support.google.com/mail/answer/185833?
+Mail.sendPassword = 'hfdewefeibfohsyt';
 %  Gmail server
 setpref('Internet','SMTP_Server','smtp.gmail.com');
 
 %% Setting of mail receiver
-Mail.receiveAdd='****************@*******';
+Mail.receiveAdd='aaaab4ytnmrch4wizispx7wctu@ctrl-kuaero.slack.com';
 
 %% Other settings
 

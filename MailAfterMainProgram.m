@@ -25,7 +25,7 @@ clear
 
 try
     % your main program
-    main;
+    example_main;
     % main results you want to know ASAP
     whatYouWantToSend = strcat('result = ', string(result));
 
@@ -41,4 +41,4 @@ try
 catch ME % get error message. 
 end
 
-mailsend;
+setup_send;
