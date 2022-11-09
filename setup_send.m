@@ -2,16 +2,16 @@
 
 %% Setting of mail sender (gmail)
 %  address
-Mail.sendAdd      = ''
+Mail.sendAdd      = 'SENDER_MAIL_ADDRESS@gmail.com'
 %  password
 %  this is NOT the password for google account but "App Passwords"
-%  See https://support.google.com/mail/answer/185833?
-Mail.sendPassword = '';
+%  See:  https://support.google.com/mail/answer/185833?
+Mail.sendPassword = 'SENDER_MAILS_PASSWORD';
 %  Gmail server
 setpref('Internet','SMTP_Server','smtp.gmail.com');
 
 %% Setting of mail receiver
-Mail.receiveAdd=''
+Mail.receiveAdd='RECEIVER_ADDRESS'
 
 %% Other settings
 
@@ -41,7 +41,7 @@ if Mail.isME == 1
 % when you get error message
     Mail.errorMsg    = ME.message;
     Mail.mailTitle   = strcat(Mail.namePC,': !Calculation Error');
-    Mail.mailMessage = strcat('エラーメッセージ: ',Mail.errorMsg);
+    Mail.mailMessage = strcat('Error message: ',Mail.errorMsg);
 else
 % when your caluculation is successfully finished
     Mail.mailTitle   = strcat(Mail.namePC,': Finish Calculation');
