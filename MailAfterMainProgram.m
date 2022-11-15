@@ -27,7 +27,7 @@ try
     % your main program
     example_main;
     % main results you want to know ASAP
-    whatYouWantToSend = strcat('result = ', string(result));
+    whatYouWantToSend = strcat(['[result1 result2] = [', num2str([result1, result2]),']']);
 
     figureDirectoryName = "./figs/";
     if isfolder(figureDirectoryName)
